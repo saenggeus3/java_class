@@ -36,13 +36,16 @@ Branch
  - 나뭇가지
  - 하나의 폴더로 다양한 상태로 나누는 것
  - git repo -> switch to -> new branch : 새로운 branch 생성
-<<<<<<< HEAD
  - 다른 branch로 변경하는 것을 check out이라고 부름
  - git은 처음에는 main(master) branch에서 시작함
 
 Merge
  - 다른 Branch에서 작업한 내용을 합치는 것
- - 합치려는 Branch로 Checkout한 후에 Merge를 선택한 후 원하는 Branch를 선택
-=======
->>>>>>> refs/heads/BranchA
+ - 원하는 Branch로 Checkout한 후에 Merge를 선택하고 합치려는 Branch를 선택
+ex : master에 BranchA를 합치고 싶은 경우,
+	master로 checkout한 후에 BranchA를 merge함
+
+fast-forward
+ - 앞으로 감기
+ - 바람직한 merge
 
