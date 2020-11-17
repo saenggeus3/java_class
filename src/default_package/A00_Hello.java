@@ -86,7 +86,7 @@ public class A00_Hello {
 		
 		
 		
-	}//프로그램의 끝
+	}
 
 }
 
