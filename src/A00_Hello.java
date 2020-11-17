@@ -57,7 +57,7 @@ public class A00_Hello {
 		System.out.println("$의 코드값 : " + (int)'$');
 		System.out.println("가의 코드값 : " + (int)'가');
 		
-		System.out.println((char) 45012);
+		System.out.println((char)45012);
 		
 		
 		// 다른타입 + 정수
