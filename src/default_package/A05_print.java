@@ -10,7 +10,7 @@ public class A05_print {
 		//줄을 자동으로 바꾸지 않으며 출력
 		
 		System.out.print("Hello,world");
-		System.out.print("Hello,world");
+		System.out.print("Hello,world ");
 		System.out.print("Hello,world ");
 		
 		//println()
