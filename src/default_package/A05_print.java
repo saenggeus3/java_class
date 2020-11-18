@@ -10,14 +10,14 @@ public class A05_print {
 		//줄을 자동으로 바꾸지 않으며 출력
 		
 		System.out.print("Hello,world");
-		System.out.print("Hello,world ");
-		System.out.print("Hello,world ");
+		System.out.print("Hello,world");
+		System.out.print("Hello,world");
 		
 		//println()
 		//줄을 자동으로 바꾸며 출력하는 함수
 		//데이터 마지막에 \n을 추가하여 출력
-		System.out.println("Hello, world!");
-		System.out.println("Hello, world!");
+		System.out.println("Hello, world! ");
+		System.out.println("Hello, world! ");
 		
 		//printf()
 		//서식문자를 이용해 출력할 수 있는 함수
