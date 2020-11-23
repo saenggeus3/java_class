@@ -16,6 +16,15 @@ public class Apple {
 		}
 	}
 	
+	public Apple(Integer calorie, String color) {
+		this.calorie = calorie;
+		this.color = color;
+	}
+	
+	public Apple() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Apple eat() throws NoMoreCalorieException{
 		
 		try {
