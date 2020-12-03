@@ -48,7 +48,7 @@ public class S04_Layout extends JFrame {
 				// 컴포넌트를 순서대로 붙이면 됨
 				// 생성자 인자값 2개는 행(row)과 열(col)의 개수
 				// 모든 칸을 채울 수 없을때는 행을 우선시함
-				setLayout(new GridLayout(5, 5, 10, 20));
+				setLayout(new GridLayout(2, 3, 10, 20));
 				
 				add(btns.get(0));
 				add(btns.get(1));
@@ -116,7 +116,7 @@ public class S04_Layout extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-		new S04_Layout("card");
+		new S04_Layout("grid");
 	}
 
 }

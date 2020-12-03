@@ -20,7 +20,7 @@ public class S06_JTextField extends JFrame{
 		JLabel label01;
 		label01 = new JLabel();
 		
-		input01.setBounds(20, 20, 200, 50);
+		input01.setBounds(20, 20, 200, 30);
 		label01.setBounds(20, 100, 300, 300);
 		
 		// KeyAdapter : KeyListener 를 전부 구현 하지 않도록 추상클래스로 바꿔놓은 클래스
